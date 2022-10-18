@@ -1,0 +1,311 @@
+.clearfix::before , .clearfix::after{
+    content : "";
+    display: block;
+}
+.clearfix::after{
+    clear: both;
+}
+
+*{
+
+   margin: 0px; 
+}
+
+header{
+    background-color: #c15355;
+    height: 60px;
+    color: white;
+    position: sticky;
+    top: 0px;
+}
+
+#header_assignment{
+  float: left;
+  font-size: x-large;
+  padding-left: 70px;
+  padding-top: 18px;
+  margin-right: 700px;
+}
+
+.header_home_blog_about{
+   float: left;
+   padding-right: 60px;
+   padding-top: 22px;
+   font-size: larger;
+   font-weight: lighter;
+}
+
+#fsd_lorem7{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 70px;
+    padding-bottom: 100px;   
+    background-color: #c15355;
+    color: white;
+}
+
+#fsd{
+    font-size: 60px; 
+}
+
+#lorem7{
+    font-size: 16px;
+}
+
+#article{
+    /* background-color: aqua; */
+    width: 100%;
+}
+.section_part1{
+    /* background-color: aqua; */
+    width: 22%; 
+    /* margin: 40px 20px 40px 100px; */
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 15%;
+    margin-right: 1%;
+    
+    float: left;
+}
+.section_part2{
+    /* background-color: aqua; */
+    width: 22%;
+    /* margin: 40px 20px 40px 20px; */
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 1%;
+    margin-right: 1%;
+    float: left;
+}
+
+.section_part3{
+    /* background-color: aqua; */
+    width: 22%;
+    /* margin: 40px 100px 40px 20px; */
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 1%;
+    margin-right: 15%;
+    float: left;    
+}
+
+.lorem6{
+    padding: 15px 35px;
+    color: #c15355;
+    /* background-color: yellow; */
+}
+.lorem18{
+    padding: 15px 35px;
+    /* background-color: tomato; */
+}
+.btn_div{
+    padding: 5px 35px;
+    /* background-color: blue; */
+    font-size: 17px;    
+}
+
+.btn{
+    padding: 3px 5px;
+    font-size: 17px;
+    margin-right: 360px;
+    margin-top: 10px;
+   
+    font-size: 18px;
+    color: white;
+    background-color:#c15355;
+    border: none;
+
+}
+
+.img{
+    width: 200px;
+    border-radius: 50%;
+}
+
+#main_section{
+    background-color: #c15355;
+}
+#section1{
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+}
+#section1 h1{
+    font-size: 30px;
+    color: white;    
+}
+#section1 p{
+    font-size: 12px;
+    color: white;    
+}
+
+#section2{
+    width: 100%;
+    background-color: blue;
+}
+
+.fieldset_size1{
+    width:10%;
+    height: 250px;
+    text-align: center;
+   float: left;
+   margin-top: 40px;
+   margin-bottom: 60px;
+   margin-left: 13.5%;
+   margin-right: 1%;
+   background-color:#c15355;
+   color: white;
+   position:relative;
+   
+}
+.fieldset_size2{
+    width:10%;
+    height: 250px;
+    text-align: center;
+    float: left;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    margin-left: 1%;
+    margin-right: 1%;
+    background-color:#c15355;
+    color: white;
+    position:relative;
+}
+.fieldset_size3{
+    width:10%;
+    height: 250px;
+    text-align: center;
+    float: left;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    margin-left: 1%;
+    margin-right: 1%;
+    background-color:#c15355;
+    color: white;
+    position:relative;
+}
+.fieldset_size4{
+    width:10%;
+    height: 250px;
+    text-align: center;
+    float: left;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    margin-left: 1%;
+    margin-right: 12.5%;
+    background-color:#c15355;
+    color: white;
+    position:relative;
+}
+
+.logo{
+    position: absolute;
+    bottom: -30px ;
+    right: -5px ;
+    
+}
+
+.logo img{
+    height: 30px;
+    background-color: white;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+#footer1{
+    text-align: center;
+}
+.bottom_img1{
+    margin-left: 16%;
+    margin-right: 100px;
+}
+
+
+
+#section1_footer1{
+    margin:60px;
+    color: #c15355;
+}
+#section1_footer1 h1{
+    font-size: 30px;
+}
+#section1_footer1 p{
+    font-size: 12px;
+}
+
+.bottom_img1, .bottom_img2{
+    float: left;
+    width: 30%; 
+    margin-bottom: 20px; 
+}
+
+.bottom_img1 img, .bottom_img2 img{
+    width: 100%;
+      
+
+}
+.bottom_img1 h3, .bottom_img2 h3{
+     color: #c15355;
+     text-align: left;
+}
+.bottom_img1 p, .bottom_img2 p{
+    text-align: left;
+}
+
+.btn2{
+    margin-right: 360px;
+    margin-top: 10px;
+   
+    font-size: 18px;
+    color: white;
+    background-color:#c15355;
+    border: none;
+    padding: 7px;
+}
+
+
+
+
+#footer2{
+    /* background-color: aqua; */
+    padding: 20px;
+    
+}
+#ul{
+    list-style: none;   
+}
+#aircampus{
+    padding-left: 50px;
+    float: left;
+    font-size: 20px;
+}
+.fa-brands{
+    padding-right: 20px;
+    float: right;
+    color: #c15355;
+}
+
+.arrow{
+    border: 2px solid #c15355;
+    border-radius: 100px;
+    height: 33px;
+    width:2.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+    position: fixed;
+    bottom: 100px;
+    right: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
