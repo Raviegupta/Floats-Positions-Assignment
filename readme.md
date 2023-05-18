@@ -1,5 +1,4 @@
 ## Things Learnt
----
 
 * use of Floats
     * The float property is used for positioning and formatting content
