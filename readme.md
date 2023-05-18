@@ -1,4 +1,4 @@
-# Things Learnt
+## Things Learnt
 
 * use of Floats
     * The float property is used for positioning and formatting content
@@ -25,3 +25,14 @@
         clear: left;
         }
     ```
+
+---
+
+* use of Arrow to navigate to other section of page
+    ```
+        <section class="arrow">
+            <a href="#nav_bar">&#8593;</a> 
+        </section>
+    ```
+        * then use css positioning to fix it.
+---
