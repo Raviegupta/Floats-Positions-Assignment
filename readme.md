@@ -14,20 +14,31 @@
 
     ```
         .div3 {
-        float: left;
-        padding: 10px;  
-        border: 3px solid #73AD21;
+            float: left;
+            padding: 10px;  
+            border: 3px solid #73AD21;
         }
 
         .div4 {
-        padding: 10px;
-        border: 3px solid red;
-        clear: left;
+            padding: 10px;
+            border: 3px solid red;
+            clear: left;
         }
     ```
 
 ---
+### The clearfix Trick
+* If a floated element is taller than the containing element, it will "overflow" outside of its container. We can then add a clearfix hack to solve this problem:
 
+    ```
+        .clearfix::before , .clearfix::after{
+            content : "";
+            display: block, table;
+            clear: both;
+        }
+        
+    ```
+---
 * use of Arrow to navigate to other section of page
     ```
         <section class="arrow">
