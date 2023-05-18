@@ -7,11 +7,13 @@
 }
 
 *{
-
    margin: 0px; 
+   padding: 0;
+   box-sizing: border-box;
 }
 
 header{
+    /* border: 2px solid black; */
     background-color: #c15355;
     height: 60px;
     color: white;
@@ -20,6 +22,7 @@ header{
 }
 
 #header_assignment{
+  /* border: 2px solid blue; */
   float: left;
   font-size: x-large;
   padding-left: 70px;
@@ -36,6 +39,7 @@ header{
 }
 
 #fsd_lorem7{
+    /* border: 2px solid black; */
     text-align: center;
     font-size: 25px;
     padding-top: 70px;
@@ -52,14 +56,16 @@ header{
     font-size: 16px;
 }
 
+/* css of white background containing details, below header */
 #article{
     /* background-color: aqua; */
     width: 100%;
 }
 .section_part1{
     /* background-color: aqua; */
+    /* border: 1px solid black; */
     width: 22%; 
-    /* margin: 40px 20px 40px 100px; */
+    margin: 40px 20px 40px 100px;
     margin-top: 40px;
     margin-bottom: 40px;
     margin-left: 15%;
@@ -96,30 +102,30 @@ header{
 }
 .lorem18{
     padding: 15px 35px;
+    text-align: justify;
     /* background-color: tomato; */
 }
 .btn_div{
     padding: 5px 35px;
     /* background-color: blue; */
-    font-size: 17px;    
 }
 
 .btn{
     padding: 3px 5px;
-    font-size: 17px;
-    margin-right: 360px;
     margin-top: 10px;
-   
     font-size: 18px;
     color: white;
     background-color:#c15355;
     border: none;
-
 }
 
+/* red background including cards section */
 .img{
-    width: 200px;
+    /* border: 2px solid blue; */
+    height: 150px;
+    width: 150px;
     border-radius: 50%;
+    margin: 15px;
 }
 
 #main_section{
@@ -131,55 +137,56 @@ header{
     padding-top: 30px;
 }
 #section1 h1{
-    font-size: 30px;
+    font-size: 36px;
     color: white;    
 }
 #section1 p{
-    font-size: 12px;
+    font-size: 15px;
     color: white;    
 }
 
 #section2{
-    width: 100%;
-    background-color: blue;
+    width: 65%;
+    /* background-color: blue; */
+    /* border: 2px solid blue; */
+    margin:auto;
+    margin-bottom: 15px;
+    margin-top: 30px;
 }
 
 .fieldset_size1{
-    width:10%;
+    /* width:10%; */
     height: 250px;
     text-align: center;
    float: left;
    margin-top: 40px;
    margin-bottom: 60px;
-   margin-left: 13.5%;
-   margin-right: 1%;
+   margin: 2%;
    background-color:#c15355;
    color: white;
    position:relative;
    
 }
 .fieldset_size2{
-    width:10%;
+    /* width:10%; */
     height: 250px;
     text-align: center;
     float: left;
     margin-top: 40px;
     margin-bottom: 60px;
-    margin-left: 1%;
-    margin-right: 1%;
+    margin: 2%;
     background-color:#c15355;
     color: white;
     position:relative;
 }
 .fieldset_size3{
-    width:10%;
+    /* width:10%; */
     height: 250px;
     text-align: center;
     float: left;
     margin-top: 40px;
     margin-bottom: 60px;
-    margin-left: 1%;
-    margin-right: 1%;
+    margin: 2%;
     background-color:#c15355;
     color: white;
     position:relative;
@@ -188,11 +195,10 @@ header{
     width:10%;
     height: 250px;
     text-align: center;
-    float: left;
+    float: right;
     margin-top: 40px;
     margin-bottom: 60px;
-    margin-left: 1%;
-    margin-right: 12.5%;
+    margin: 2%;
     background-color:#c15355;
     color: white;
     position:relative;
@@ -200,21 +206,23 @@ header{
 
 .logo{
     position: absolute;
-    bottom: -30px ;
-    right: -5px ;
-    
+    bottom: -15px;
+    right: -15px;  
 }
 
 .logo img{
-    height: 30px;
+    height: 35px;
     background-color: white;
     padding: 7px;
-    border-radius: 5px;
+    border-radius: 3px;
 }
 
+
+/* footer section */
 #footer1{
     text-align: center;
 }
+
 .bottom_img1{
     margin-left: 16%;
     margin-right: 100px;
@@ -227,22 +235,21 @@ header{
     color: #c15355;
 }
 #section1_footer1 h1{
-    font-size: 30px;
+    font-size: 36px;
 }
 #section1_footer1 p{
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .bottom_img1, .bottom_img2{
     float: left;
     width: 30%; 
     margin-bottom: 20px; 
+    /* border: 2px solid blue; */
 }
 
 .bottom_img1 img, .bottom_img2 img{
     width: 100%;
-      
-
 }
 .bottom_img1 h3, .bottom_img2 h3{
      color: #c15355;
@@ -271,9 +278,10 @@ header{
     padding: 20px;
     
 }
-#ul{
+#ul{ 
     list-style: none;   
 }
+
 #aircampus{
     padding-left: 50px;
     float: left;
@@ -285,11 +293,12 @@ header{
     color: #c15355;
 }
 
+/* css for arrow */
 .arrow{
-    border: 2px solid #c15355;
-    border-radius: 100px;
-    height: 33px;
-    width:2.5%;
+    border: 1px solid #c15355;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -298,7 +307,6 @@ header{
     bottom: 100px;
     right: 30px;
 }
-
 
 
 
